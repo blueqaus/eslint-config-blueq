@@ -10,12 +10,16 @@
     "url": "git+https://github.com/vorks/eslint-config-blueq.git"
   },
   "keywords": [
-    "eslint",
-    "react",
-    "import",
-    "jsx-a11y",
-    "immutablejs",
     "babel",
+    "blueq",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "immutablejs",
+    "import",
+    "javascript",
+    "jsx-a11y",
+    "react",
     "standard"
   ],
   "author": "Rhys Gevaux",
@@ -23,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/vorks/eslint-config-blueq/issues"
   },
-  "homepage": "https://github.com/vorks/eslint-config-blueq#readme"
+  "homepage": "https://github.com/vorks/eslint-config-blueq#readme",
+  "peerDependencies": {
+    "eslint": "^3.16.1"
+  }
 }
