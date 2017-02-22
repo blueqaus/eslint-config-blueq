@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-blueq",
+  "version": "0.0.0",
+  "description": "BlueQ's eslint config",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorks/eslint-config-blueq.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "import",
+    "jsx-a11y",
+    "immutablejs",
+    "babel",
+    "standard"
+  ],
+  "author": "Rhys Gevaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vorks/eslint-config-blueq/issues"
+  },
+  "homepage": "https://github.com/vorks/eslint-config-blueq#readme"
+}
