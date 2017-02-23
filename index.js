@@ -7,6 +7,8 @@ module.exports = {
     './rules/node',
     './rules/stylisticIssues',
     './rules/ecmaScript6',
+    './rules/babel',
+    './rules/immutablejs',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',

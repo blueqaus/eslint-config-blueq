@@ -3,6 +3,6 @@ module.exports = {
     'babel',
   ],
   rules: {
-    'babel-no-invalid-this': 'error',
+    'babel/no-invalid-this': 'error',
   },
 }
