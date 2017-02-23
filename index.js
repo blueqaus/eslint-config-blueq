@@ -10,6 +10,7 @@ module.exports = {
     './rules/babel',
     './rules/immutablejs',
     './rules/import',
+    './rules/jsxA11y',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',
