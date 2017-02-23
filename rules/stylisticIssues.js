@@ -53,7 +53,7 @@ module.exports = {
       beforeBlockComment: true,
       afterBlockComment: true,
       beforeLineComment: true,
-      afterLineComment: true,
+      afterLineComment: false,
       allowBlockStart: true,
       allowBlockEnd: false,
       allowObjectStart: true,

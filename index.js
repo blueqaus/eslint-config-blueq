@@ -9,6 +9,7 @@ module.exports = {
     './rules/ecmaScript6',
     './rules/babel',
     './rules/immutablejs',
+    './rules/import',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',
