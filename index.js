@@ -1,5 +1,7 @@
 module.exports = {
-  "extends": [].map(require.resolve),
+  "extends": [
+    './rules/possibleErrors',
+  ].map(require.resolve),
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 8,
@@ -7,9 +9,9 @@ module.exports = {
       "experimentalObjectRestSpread": true,
       "impliedStrict": true,
       "jsx": true,
-    }
+    },
   },
   "rules": {
-    "strict": 'error'
-  }
+    "strict": 'error',
+  },
 }
