@@ -9,16 +9,17 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', {
-      allowSingleLine: false
+      allowSingleLine: false,
     }],
     camelcase: ['error', {
-      properties: 'never'
+      properties: 'never',
     }],
     'capitalized-comments': ['error', 'always'],
     'comma-spacing': ['error', {
       before: false,
-      after: true
+      after: true,
     }],
+    'comma-dangle': ['error', 'always-multiline'],
     'comma-style': ['error', 'last'],
     'computed-property-spacing': ['error', 'never'],
     'consistent-this': ['error', 'self'],
@@ -27,25 +28,25 @@ module.exports = {
     'func-name-matching': ['off'],
     'func-names': ['error', 'always'],
     'func-style': ['error', 'declaration', {
-      allowArrowFunctions: true
+      allowArrowFunctions: true,
     }],
     'id-blacklist': ['error', 'callback', 'cb', 'data', 'e'],
     'id-length': ['error', {
-      min: 2
+      min: 2,
     }],
     'id-match': ['off'],
     indent: ['error', indentSize],
     'jsx-quotes': ['error', 'prefer-single'],
     'key-spacing': ['error', {
       beforeColon: false,
-      afterColon: true
+      afterColon: true,
     }],
     'keyword-spacing': ['error', {
       before: true,
-      after: true
+      after: true,
     }],
     'line-comment-position': ['error', {
-      position: 'above'
+      position: 'above',
     }],
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': ['error', {
@@ -62,22 +63,22 @@ module.exports = {
     }],
     'lines-around-directive': ['error', {
       before: 'always',
-      after: 'always'
+      after: 'always',
     }],
     'max-depth': ['error', maxDepth],
     'max-len': ['error', maxLen],
     'max-lines': ['error', {
       max: 200,
       skipBlankLines: true,
-      skipComments: true
+      skipComments: true,
     }],
     'max-nested-callbacks': ['error', {
-      max: 4
+      max: 4,
     }],
     'max-params': ['error', maxParams],
     'max-statements': ['error', maxStatements],
     'max-statements-per-line': ['error', {
-      max: 1
+      max: 1,
     }],
     'multiline-ternary': ['off'],
     'new-cap': ['off'],
@@ -85,7 +86,7 @@ module.exports = {
     'newline-after-var': ['error', 'always'],
     'newline-before-return': 'error',
     'newline-per-chained-call': ['error', {
-      ignoreChainWithDepth: 4
+      ignoreChainWithDepth: 4,
     }],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
@@ -123,20 +124,20 @@ module.exports = {
     'padded-blocks': ['error', 'never'],
     'quote-props': ['error', 'as-needed'],
     quotes: ['error', 'single', {
-      avoidEscape: true
+      avoidEscape: true,
     }],
     'require-jsdoc': 'off',
     semi: ['error', 'never'],
     'semi-spacing': ['error', {
       before: false,
-      after: true
+      after: true,
     }],
     'sort-keys': ['off', 'asc', {
       caseSensitive: false,
-      natural: true
+      natural: true,
     }],
     'sort-vars': ['error', {
-      ignoreCase: true
+      ignoreCase: true,
     }],
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', {
@@ -150,7 +151,7 @@ module.exports = {
       words: true,
       nonwords: false,
       overrides: {
-      }
+      },
     }],
     'spaced-comment': ['error', 'always'],
     'template-tag-spacing': ['error', 'never'],

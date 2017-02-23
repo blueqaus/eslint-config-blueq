@@ -56,7 +56,7 @@ module.exports = {
     'template-curly-spacing': ['error', 'never'],
     'yield-star-spacing': ['error', {
       before: true,
-      after: false
+      after: false,
     }],
-  }
+  },
 }

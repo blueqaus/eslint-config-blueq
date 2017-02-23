@@ -6,7 +6,7 @@ module.exports = {
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
     'class-methods-use-this': ['error', {
-      exceptMethods: []
+      exceptMethods: [],
     }],
     complexity: ['error', complexity],
     'consistent-return': 'error',
@@ -14,7 +14,7 @@ module.exports = {
     'default-case': ['error'],
     'dot-location': ['error', 'property'],
     'dot-notation': ['error', {
-      allowKeywords: true
+      allowKeywords: true,
     }],
     eqeqeq: ['error', 'always'],
     'guard-for-in': 'error',
@@ -33,7 +33,7 @@ module.exports = {
     'no-fallthrough': 'error',
     'no-floating-decimal': 'error',
     'no-global-assign': ['error', {
-      exceptions: []
+      exceptions: [],
     }],
     'no-implicit-coercion': ['error', {
       boolean: true,

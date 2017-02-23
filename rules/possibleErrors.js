@@ -31,7 +31,7 @@ module.exports = {
     'use-isnan': 'error',
     'valid-jsdoc': 'error',
     'valid-typeof': ['error', {
-      requireStringLiterals: true
+      requireStringLiterals: true,
     }],
-  }
+  },
 }
