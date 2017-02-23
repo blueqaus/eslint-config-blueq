@@ -8,12 +8,8 @@ module.exports = {
   rules: {
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error', 'always'],
-    'brace-style': ['error', '1tbs', {
-      allowSingleLine: false,
-    }],
-    camelcase: ['error', {
-      properties: 'never',
-    }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
+    camelcase: ['error', { properties: 'never' }],
     'capitalized-comments': ['error', 'always'],
     'comma-spacing': ['error', {
       before: false,
@@ -27,13 +23,9 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
     'func-name-matching': ['off'],
     'func-names': ['error', 'always'],
-    'func-style': ['error', 'declaration', {
-      allowArrowFunctions: true,
-    }],
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'id-blacklist': ['error', 'callback', 'cb', 'data', 'e'],
-    'id-length': ['error', {
-      min: 2,
-    }],
+    'id-length': ['error', { min: 2 }],
     'id-match': ['off'],
     indent: ['error', indentSize, {
       FunctionDeclaration: {
@@ -57,9 +49,7 @@ module.exports = {
       before: true,
       after: true,
     }],
-    'line-comment-position': ['error', {
-      position: 'above',
-    }],
+    'line-comment-position': ['error', { position: 'above' }],
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': ['error', {
       beforeBlockComment: true,
@@ -84,22 +74,16 @@ module.exports = {
       skipBlankLines: true,
       skipComments: true,
     }],
-    'max-nested-callbacks': ['error', {
-      max: 4,
-    }],
+    'max-nested-callbacks': ['error', { max: 4 }],
     'max-params': ['error', maxParams],
     'max-statements': ['error', maxStatements],
-    'max-statements-per-line': ['error', {
-      max: 1,
-    }],
+    'max-statements-per-line': ['error', { max: 1 }],
     'multiline-ternary': ['off'],
     'new-cap': ['off'],
     'new-parens': 'off',
     'newline-after-var': ['error', 'always'],
     'newline-before-return': 'error',
-    'newline-per-chained-call': ['error', {
-      ignoreChainWithDepth: 4,
-    }],
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
     'no-continue': 'error',
@@ -126,7 +110,7 @@ module.exports = {
     'no-underscore-dangle': ['error'],
     'no-unneeded-ternary': ['error'],
     'no-whitespace-before-property': 'error',
-    'object-curly-newline': ['error', 'always'],
+    'object-curly-newline': ['error', { multiline: true }],
     'object-curly-spacing': ['error', 'always'],
     'object-property-newline': ['error'],
     'one-var': ['error', 'never'],
@@ -135,9 +119,7 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     'padded-blocks': ['error', 'never'],
     'quote-props': ['error', 'as-needed'],
-    quotes: ['error', 'single', {
-      avoidEscape: true,
-    }],
+    quotes: ['error', 'single', { avoidEscape: true }],
     'require-jsdoc': 'off',
     semi: ['error', 'never'],
     'semi-spacing': ['error', {
@@ -148,9 +130,7 @@ module.exports = {
       caseSensitive: false,
       natural: true,
     }],
-    'sort-vars': ['error', {
-      ignoreCase: true,
-    }],
+    'sort-vars': ['error', { ignoreCase: true }],
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', {
       anonymous: 'always',
@@ -162,8 +142,7 @@ module.exports = {
     'space-unary-ops': ['error', {
       words: true,
       nonwords: false,
-      overrides: {
-      },
+      overrides: {},
     }],
     'spaced-comment': ['error', 'always'],
     'template-tag-spacing': ['error', 'never'],

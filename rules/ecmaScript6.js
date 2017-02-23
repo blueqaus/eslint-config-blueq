@@ -1,32 +1,22 @@
 module.exports = {
-  env: {
-    es6: true,
-  },
+  env: { es6: true },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    ecmaFeatures: { experimentalObjectRestSpread: true },
   },
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
-    'arrow-parens': ['error', 'as-needed', {
-      requireForBlockBody: true,
-    }],
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'constructor-super': 'error',
     'generator-star-spacing': ['error', {
       before: true,
       after: false,
     }],
     'no-class-assign': 'error',
-    'no-confusing-arrow': ['error', {
-      allowParens: false,
-    }],
+    'no-confusing-arrow': ['error', { allowParens: false }],
     'no-dupe-class-members': 'error',
-    'no-duplicate-imports': ['error', {
-      includeExports: true,
-    }],
+    'no-duplicate-imports': ['error', { includeExports: true }],
     'no-new-symbol': 'error',
     'no-restricted-imports': 'off',
     'no-this-before-super': 'error',

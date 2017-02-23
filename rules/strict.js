@@ -1,5 +1,1 @@
-module.exports = {
-  rules: {
-    strict: ['error', 'never'],
-  },
-}
+module.exports = { rules: { strict: ['error', 'never'] } }

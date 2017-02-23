@@ -5,17 +5,13 @@ module.exports = {
     'accessor-pairs': 'off',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'class-methods-use-this': ['error', {
-      exceptMethods: [],
-    }],
+    'class-methods-use-this': ['error', { exceptMethods: [] }],
     complexity: ['error', complexity],
     'consistent-return': 'error',
     curly: ['error', 'all'],
     'default-case': ['error'],
     'dot-location': ['error', 'property'],
-    'dot-notation': ['error', {
-      allowKeywords: true,
-    }],
+    'dot-notation': ['error', { allowKeywords: true }],
     eqeqeq: ['error', 'always'],
     'guard-for-in': 'error',
     'no-alert': 'error',
@@ -32,9 +28,7 @@ module.exports = {
     'no-extra-label': 'error',
     'no-fallthrough': 'error',
     'no-floating-decimal': 'error',
-    'no-global-assign': ['error', {
-      exceptions: [],
-    }],
+    'no-global-assign': ['error', { exceptions: [] }],
     'no-implicit-coercion': ['error', {
       boolean: true,
       number: true,

@@ -30,8 +30,6 @@ module.exports = {
     'no-unsafe-negation': 'error',
     'use-isnan': 'error',
     'valid-jsdoc': 'error',
-    'valid-typeof': ['error', {
-      requireStringLiterals: true,
-    }],
+    'valid-typeof': ['error', { requireStringLiterals: true }],
   },
 }
