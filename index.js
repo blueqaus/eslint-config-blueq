@@ -3,6 +3,7 @@ module.exports = {
     './rules/possibleErrors',
     './rules/bestPractices',
     './rules/strict',
+    './rules/variables',
   ].map(require.resolve),
   "parserOptions": {
     "sourceType": "module",
