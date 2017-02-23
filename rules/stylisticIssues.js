@@ -35,7 +35,19 @@ module.exports = {
       min: 2,
     }],
     'id-match': ['off'],
-    indent: ['error', indentSize],
+    indent: ['error', indentSize, {
+      FunctionDeclaration: {
+        body: 1,
+        parameters: 1,
+      },
+      FunctionExpression: {
+        body: 1,
+        parameters: 1,
+      },
+      outerIIFEBody: 1,
+      SwitchCase: 1,
+      VariableDeclarator: 1,
+    }],
     'jsx-quotes': ['error', 'prefer-single'],
     'key-spacing': ['error', {
       beforeColon: false,

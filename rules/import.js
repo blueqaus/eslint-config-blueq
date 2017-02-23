@@ -36,7 +36,7 @@ module.exports = {
     'import/unambiguous': 'off',
 
     // Style guide
-    'import/extensions': ['error', 'always'],
+    'import/extensions': ['error', 'never'],
     'import/first': ['error', 'absolute-first'],
     'import/max-dependencies': ['error', {
       max: 10,
