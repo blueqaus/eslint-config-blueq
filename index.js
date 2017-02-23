@@ -11,6 +11,7 @@ module.exports = {
     './rules/immutablejs',
     './rules/import',
     './rules/jsxA11y',
+    './rules/react',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',
