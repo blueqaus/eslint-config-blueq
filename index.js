@@ -4,6 +4,7 @@ module.exports = {
     './rules/bestPractices',
     './rules/strict',
     './rules/variables',
+    './rules/node',
   ].map(require.resolve),
   "parserOptions": {
     "sourceType": "module",
