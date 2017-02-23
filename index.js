@@ -6,6 +6,7 @@ module.exports = {
     './rules/variables',
     './rules/node',
     './rules/stylisticIssues',
+    './rules/ecmaScript6',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',
@@ -16,5 +17,7 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: { strict: 'error', },
+  rules: {
+    strict: 'error',
+  },
 }
