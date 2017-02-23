@@ -24,7 +24,13 @@
     "react",
     "standard"
   ],
-  "author": "Rhys Gevaux",
+  "author": "Rhys Gevaux (https://twitter.com/vorksau)",
+  "contributors": [
+    {
+      "name": "Rhys Gevaux",
+      "url": "https://twitter.com/vorksau"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blueqaus/eslint-config-blueq/issues"
