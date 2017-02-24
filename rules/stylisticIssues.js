@@ -129,8 +129,11 @@ module.exports = {
     'no-unneeded-ternary': ['error'],
     'no-whitespace-before-property': 'error',
     'object-curly-newline': ['error', {
-      ObjectExpression: 'always',
+      ObjectExpression: {
+        minProperties: 1,
+      },
       ObjectPattern: {
+        minProperties: 1,
         multiline: true,
       },
     }],
