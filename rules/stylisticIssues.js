@@ -133,7 +133,6 @@ module.exports = {
         minProperties: 1,
       },
       ObjectPattern: {
-        minProperties: 1,
         multiline: true,
       },
     }],
