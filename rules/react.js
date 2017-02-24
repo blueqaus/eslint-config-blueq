@@ -51,7 +51,7 @@ module.exports = {
         'render',
       ],
     }],
-    'react/sort-prop-types': 'error',
+    'react/sort-prop-types': ['error', { ignoreCase: true }],
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
 

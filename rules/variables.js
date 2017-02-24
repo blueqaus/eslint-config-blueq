@@ -8,6 +8,7 @@ module.exports = {
     'no-shadow': 'error',
     'no-shadow-restricted-names': 'error',
     'no-undef': 'error',
+    'no-undefined': 'error',
     'no-undef-init': 'error',
     'no-unused-vars': ['error'],
     'no-use-before-define': 'error',
