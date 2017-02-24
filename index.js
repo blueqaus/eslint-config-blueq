@@ -22,5 +22,7 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: { strict: 'error' },
+  rules: {
+    strict: 'error',
+  },
 }

@@ -1,16 +1,24 @@
 const indentSize = 2
 
 module.exports = {
-  parserOptions: { ecmaFeatures: { jsx: true } },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   plugins: [
     'react',
   ],
   rules: {
     // React
-    'react/display-name': ['error', { ignoreTranspilerName: false }],
+    'react/display-name': ['error', {
+      ignoreTranspilerName: false,
+    }],
     'react/forbid-component-props': 'off',
     'react/forbid-elements': 'off',
-    'react/forbid-prop-types': ['error', { forbid: ['any', 'array', 'object'] }],
+    'react/forbid-prop-types': ['error', {
+      forbid: ['any', 'array', 'object'],
+    }],
     'react/forbid-foreign-prop-types': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
@@ -22,7 +30,9 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-multi-comp': ['error', { ignoreStateless: true }],
+    'react/no-multi-comp': ['error', {
+      ignoreStateless: true,
+    }],
     'react/no-set-state': 'off',
     'react/no-string-refs': 'error',
     'react/no-unescaped-entities': 'error',
@@ -51,14 +61,18 @@ module.exports = {
         'render',
       ],
     }],
-    'react/sort-prop-types': ['error', { ignoreCase: true }],
+    'react/sort-prop-types': ['error', {
+      ignoreCase: true,
+    }],
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
 
     // JSX-specific rules
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-    'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
+    'react/jsx-curly-spacing': ['error', 'never', {
+      allowMultiline: true,
+    }],
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-filename-extension': 'error',
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
@@ -79,7 +93,9 @@ module.exports = {
       allowBind: false,
     }],
     'react/jsx-no-comment-textnodes': 'error',
-    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
+    'react/jsx-no-duplicate-props': ['error', {
+      ignoreCase: true,
+    }],
     'react/jsx-no-literals': 'error',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',

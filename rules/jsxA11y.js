@@ -1,25 +1,39 @@
 module.exports = {
-  parserOptions: { ecmaFeatures: { jsx: true } },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   plugins: [
     'jsx-a11y',
     'react',
   ],
   rules: {
     'jsx-a11y/accessible-emoji': 'error',
-    'jsx-a11y/anchor-has-content': ['error', { components: [''] }],
+    'jsx-a11y/anchor-has-content': ['error', {
+      components: [''],
+    }],
     'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
     'jsx-a11y/aria-props': 'error',
     'jsx-a11y/aria-proptypes': 'error',
-    'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
+    'jsx-a11y/aria-role': ['error', {
+      ignoreNonDom: false,
+    }],
     'jsx-a11y/aria-unsupported-elements': 'error',
     'jsx-a11y/click-events-have-key-events': 'error',
-    'jsx-a11y/heading-has-content': ['error', { components: [''] }],
-    'jsx-a11y/href-no-hash': ['error', { components: ['a'] }],
+    'jsx-a11y/heading-has-content': ['error', {
+      components: [''],
+    }],
+    'jsx-a11y/href-no-hash': ['error', {
+      components: ['a'],
+    }],
     'jsx-a11y/html-has-lang': 'error',
     'jsx-a11y/iframe-has-title': 'error',
     'jsx-a11y/img-has-alt': 'error',
     'jsx-a11y/img-redundant-alt': 'error',
-    'jsx-a11y/label-has-for': ['error', { components: ['label'] }],
+    'jsx-a11y/label-has-for': ['error', {
+      components: ['label'],
+    }],
     'jsx-a11y/lang': 'error',
     'jsx-a11y/mouse-events-have-key-events': 'error',
     'jsx-a11y/no-access-key': 'error',

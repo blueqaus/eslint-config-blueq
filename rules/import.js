@@ -1,5 +1,7 @@
 module.exports = {
-  env: { es6: true },
+  env: {
+    es6: true,
+  },
   parserOptions: {
     ecmaVersion: 7,
     sourceType: 'module',
@@ -36,7 +38,9 @@ module.exports = {
     // Style guide
     'import/extensions': ['error', 'never'],
     'import/first': ['error', 'absolute-first'],
-    'import/max-dependencies': ['error', { max: 10 }],
+    'import/max-dependencies': ['error', {
+      max: 10,
+    }],
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
@@ -46,6 +50,6 @@ module.exports = {
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       'newlines-between': 'always',
     }],
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'warn',
   },
 }
