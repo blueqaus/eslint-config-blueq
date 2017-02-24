@@ -172,8 +172,7 @@ module.exports = {
     'space-unary-ops': ['error', {
       words: true,
       nonwords: false,
-      overrides: {
-      },
+      overrides: {},
     }],
     'spaced-comment': ['error', 'always'],
     'template-tag-spacing': ['error', 'never'],
