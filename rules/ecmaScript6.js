@@ -21,7 +21,7 @@ module.exports = {
     }],
     'no-class-assign': 'error',
     'no-confusing-arrow': ['error', {
-      allowParens: false,
+      allowParens: true,
     }],
     'no-dupe-class-members': 'error',
     'no-duplicate-imports': ['error', {
