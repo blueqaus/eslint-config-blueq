@@ -62,7 +62,9 @@ module.exports = {
       ],
     }],
     'react/sort-prop-types': ['error', {
+      callbacksLast: false,
       ignoreCase: true,
+      requiredFirst: false,
     }],
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
