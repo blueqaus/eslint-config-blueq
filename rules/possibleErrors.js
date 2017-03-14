@@ -14,6 +14,7 @@ module.exports = {
     'no-ex-assign': 'error',
     'no-extra-boolean-cast': 'error',
     'no-extra-parens': ['error', 'all', {
+      conditionalAssign: true,
       ignoreJSX: 'multi-line',
     }],
     'no-extra-semi': 'error',
