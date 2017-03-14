@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blueq",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "BlueQ's eslint config",
   "main": "index.js",
   "scripts": {
