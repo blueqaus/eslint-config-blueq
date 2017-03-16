@@ -118,7 +118,6 @@ module.exports = {
       'error',
       'ForInStatement',
       'ForOfStatement',
-      'FunctionExpression',
       'LabeledStatement',
       'WithStatement',
     ],
