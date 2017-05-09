@@ -5,17 +5,23 @@ module.exports = {
     'accessor-pairs': 'off',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'class-methods-use-this': ['error', {
-      exceptMethods: [],
-    }],
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: [],
+      },
+    ],
     complexity: ['error', complexity],
     'consistent-return': 'error',
     curly: ['error', 'all'],
     'default-case': ['error'],
     'dot-location': ['error', 'property'],
-    'dot-notation': ['error', {
-      allowKeywords: true,
-    }],
+    'dot-notation': [
+      'error',
+      {
+        allowKeywords: true,
+      },
+    ],
     eqeqeq: ['error', 'always'],
     'guard-for-in': 'error',
     'no-alert': 'error',
@@ -32,15 +38,21 @@ module.exports = {
     'no-extra-label': 'error',
     'no-fallthrough': 'error',
     'no-floating-decimal': 'error',
-    'no-global-assign': ['error', {
-      exceptions: [],
-    }],
-    'no-implicit-coercion': ['error', {
-      boolean: true,
-      number: true,
-      string: true,
-      allow: [],
-    }],
+    'no-global-assign': [
+      'error',
+      {
+        exceptions: [],
+      },
+    ],
+    'no-implicit-coercion': [
+      'error',
+      {
+        boolean: true,
+        number: true,
+        string: true,
+        allow: [],
+      },
+    ],
     'no-implicit-globals': 'error',
     'no-implied-eval': 'error',
     'no-invalid-this': 'off',
@@ -59,21 +71,27 @@ module.exports = {
     'no-param-reassign': ['error'],
     'no-proto': 'error',
     'no-redeclare': 'error',
-    'no-restricted-properties': ['error', {
-      object: 'arguments',
-      property: 'callee',
-      message: 'arguments.callee is deprecated.',
-    }, {
-      object: 'Math',
-      property: 'pow',
-      message: 'Use the exponentiation operator (**) instead.',
-    }, {
-      property: '__defineGetter__',
-      message: 'Please use Object.defineProperty instead.',
-    }, {
-      property: '__defineSetter__',
-      message: 'Please use Object.defineProperty instead.',
-    }],
+    'no-restricted-properties': [
+      'error',
+      {
+        object: 'arguments',
+        property: 'callee',
+        message: 'arguments.callee is deprecated.',
+      },
+      {
+        object: 'Math',
+        property: 'pow',
+        message: 'Use the exponentiation operator (**) instead.',
+      },
+      {
+        property: '__defineGetter__',
+        message: 'Please use Object.defineProperty instead.',
+      },
+      {
+        property: '__defineSetter__',
+        message: 'Please use Object.defineProperty instead.',
+      },
+    ],
     'no-return-assign': 'error',
     'no-return-await': 'error',
     'no-script-url': 'error',

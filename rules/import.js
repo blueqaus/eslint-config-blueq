@@ -6,9 +6,7 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  plugins: [
-    'import',
-  ],
+  plugins: ['import'],
   rules: {
     // Static analysis
     'import/default': 'error',
@@ -38,18 +36,31 @@ module.exports = {
     // Style guide
     'import/extensions': ['error', 'never'],
     'import/first': ['error', 'absolute-first'],
-    'import/max-dependencies': ['error', {
-      max: 10,
-    }],
+    'import/max-dependencies': [
+      'error',
+      {
+        max: 10,
+      },
+    ],
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
     'import/no-named-default': 'error',
     'import/no-unassigned-import': 'off',
-    'import/order': ['error', {
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-      'newlines-between': 'always',
-    }],
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+        'newlines-between': 'always',
+      },
+    ],
     'import/prefer-default-export': 'warn',
   },
 }
