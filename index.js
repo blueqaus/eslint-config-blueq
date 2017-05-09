@@ -12,6 +12,7 @@ module.exports = {
     './rules/import',
     './rules/jsxA11y',
     './rules/react',
+    './rules/prettier',
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'module',
