@@ -10,6 +10,7 @@ module.exports = {
   ],
   rules: {
     'jsx-a11y/accessible-emoji': 'error',
+    'jsx-a11y/alt-text': 'error',
     'jsx-a11y/anchor-has-content': ['error', {
       components: [''],
     }],
@@ -29,7 +30,6 @@ module.exports = {
     }],
     'jsx-a11y/html-has-lang': 'error',
     'jsx-a11y/iframe-has-title': 'error',
-    'jsx-a11y/img-has-alt': 'error',
     'jsx-a11y/img-redundant-alt': 'error',
     'jsx-a11y/label-has-for': ['error', {
       components: ['label'],
@@ -39,11 +39,33 @@ module.exports = {
     'jsx-a11y/no-access-key': 'error',
     'jsx-a11y/no-autofocus': 'error',
     'jsx-a11y/no-distracting-elements': 'error',
+    'jsx-a11y/no-interactive-element-to-noninteractive-role': ['error', {
+      tr: ['none', 'presentation'],
+    }],
+    'jsx-a11y/no-noninteractive-element-interactions': ['error', {
+      handlers: [
+        'onClick',
+        'onMouseDown',
+        'onMouseUp',
+        'onKeyPress',
+        'onKeyDown',
+        'onKeyUp',
+      ],
+    }],
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': ['error', {
+      ul: ['listbox', 'menu', 'menubar', 'radiogroup', 'tablist', 'tree', 'treegrid'],
+      ol: ['listbox', 'menu', 'menubar', 'radiogroup', 'tablist', 'tree', 'treegrid'],
+      li: ['menuitem', 'option', 'row', 'tab', 'treeitem'],
+      table: ['grid'],
+      td: ['gridcell'],
+    }],
+    'jsx-a11y/no-noninteractive-tabindex': ['error', {
+      tags: [],
+      roles: ['tabpanel'],
+    }],
     'jsx-a11y/no-onchange': 'error',
     'jsx-a11y/no-redundant-roles': 'error',
     'jsx-a11y/no-static-element-interactions': 'error',
-    'jsx-a11y/onclick-has-focus': 'error',
-    'jsx-a11y/onclick-has-role': 'error',
     'jsx-a11y/role-has-required-aria-props': 'error',
     'jsx-a11y/role-supports-aria-props': 'error',
     'jsx-a11y/scope': 'error',

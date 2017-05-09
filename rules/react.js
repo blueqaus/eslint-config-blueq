@@ -33,6 +33,7 @@ module.exports = {
     'react/no-multi-comp': ['error', {
       ignoreStateless: true,
     }],
+    'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
     'react/no-string-refs': 'error',
     'react/no-unescaped-entities': 'error',
