@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'immutablejs',
-  ],
+  plugins: ['immutablejs'],
   rules: {
     'immutablejs/no-native-map-set': 'error',
   },

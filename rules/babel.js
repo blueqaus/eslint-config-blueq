@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'babel',
-  ],
+  plugins: ['babel'],
   rules: {
     'babel/no-invalid-this': 'error',
   },

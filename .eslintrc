@@ -1,3 +1,7 @@
 {
-  "extends": "./index.js",
+  "extends": [
+    "./index.js",
+    "prettier",
+    "prettier/react"
+  ],
 }
